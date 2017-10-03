@@ -7,6 +7,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 const routes = require('./api/routes/timeCheckRoutes')
 routes(app)
-app.listen(port, function () {
-  console.log('App running')
+app.listen(port, function() {
+    console.log('App running')
 })
